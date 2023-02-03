@@ -145,3 +145,21 @@
     border-bottom-right-radius: 20px;
     filter: opacity(75%);
 }
+
+/* estilos dos destinos */
+
+.destinos {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+}
+
+.destino {
+    display: flex;
+    flex-direction: column;
+}
+.destino img {
+    height: 200px;
+    width: 280px;
+    margin: 20px;
+}
