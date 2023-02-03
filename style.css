@@ -105,3 +105,39 @@
     color: white;
     border: 1px solid white;
 }
+
+.slogan-section {
+    margin-top: 70px;
+    text-align: left;
+}
+
+.slogan-section h2 {
+    margin-left: 60px;
+    margin-bottom: 30px;
+    color: rgb(54, 139, 196);
+}
+
+.conteudo-slogan {
+    display: flex;
+    width: 90%;
+    margin-left: 60px;
+    background-color: rgb(54, 139, 196);
+    border-radius: 20px;
+    align-self: center;
+}
+
+.onibus-slogan {   
+    width: 50%;
+    height: 400px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    filter: opacity(75%);
+}
+
+.pessoa-slogan {
+    width: 50%;
+    height: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    filter: opacity(75%);
+}
