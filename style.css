@@ -43,7 +43,7 @@
 }
 
 .botao-login:hover {
-    background-color: rgb(20, 89, 134);;
+    background-color: rgb(20, 89, 134);
     color: white;
     transition-duration: 0.6s;
 }
@@ -190,6 +190,56 @@ h2 {
 
 /* estilos da secao de passagens */
 
+.passagens-section {
+   margin-top: 60px;
+}
+
+.passagens {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 60px;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.passagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    background-color: #5884d63d;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 2px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.411);
+}
+
+.passagem img {
+    height: 220px;
+    width: 280px;
+}
+
+.passagem button {
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 35px;
+    background-color: rgb(54, 139, 196);
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;    
+}
+
+.passagem button:hover {
+    background-color: rgb(20, 89, 134);
+    transition-duration: 0.6s;
+    border: solid 1px white;
+}
+
+.passagem ins {
+    text-decoration: none;
+}
 
 
 /* estilos da secao de pontos de venda */
