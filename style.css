@@ -276,17 +276,33 @@ h2 {
     padding-top: 5px;
 }
 
+/* estilos da secao sobre */
+
 .sobre {
-    margin: 60px;
+    margin-left: 60px;
     border-radius: 20px;
-    display: flex;
     width: 90%;
-    height: 350px;
+    display: flex;
+    background-color: rgb(54, 139, 196);
+    color: white;
+}
+
+.sobre-section {
+    margin-top: 60px;
 }
 
 .sobre-texto{
-    width: 30%;
+    margin: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
 }
 
-/* estilos da secao sobre */
+.sobre img {
+    filter: opacity(65%);
+    width: 80%;
+    border-bottom-right-radius: 20px;
+}
+
 /* estilos do rodape */
