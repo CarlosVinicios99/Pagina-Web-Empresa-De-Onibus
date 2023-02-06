@@ -276,5 +276,17 @@ h2 {
     padding-top: 5px;
 }
 
+.sobre {
+    margin: 60px;
+    border-radius: 20px;
+    display: flex;
+    width: 90%;
+    height: 350px;
+}
+
+.sobre-texto{
+    width: 30%;
+}
+
 /* estilos da secao sobre */
 /* estilos do rodape */
