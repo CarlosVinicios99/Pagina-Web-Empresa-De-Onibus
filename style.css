@@ -241,6 +241,7 @@ h2 {
 .passagem del {
     color: red;
 }
+
 .passagem ins {
     text-decoration: none;
     color: green;
@@ -250,5 +251,30 @@ h2 {
 
 
 /* estilos da secao de pontos de venda */
+
+.pontos-de-venda{
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    padding: 25px;
+    width: 90%;
+    height: 535px;
+    border-radius: 20px;
+    background-color: rgb(54, 139, 196);
+}
+
+.pontos-de-venda ul {
+    margin-left: 50px;
+    margin-right: 50px;
+    list-style: disc;
+
+}
+
+.pontos-de-venda ul li {
+    color: white;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
 /* estilos da secao sobre */
 /* estilos do rodape */
